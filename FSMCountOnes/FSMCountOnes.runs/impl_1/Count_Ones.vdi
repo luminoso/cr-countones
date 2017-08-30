@@ -1,0 +1,381 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed May 17 15:55:39 2017
+# Process ID: 20789
+# Current directory: /home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.runs/impl_1
+# Command line: vivado -log Count_Ones.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Count_Ones.tcl -notrace
+# Log file: /home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.runs/impl_1/Count_Ones.vdi
+# Journal file: /home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source Count_Ones.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 258 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[4]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[0]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[1]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[2]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[3]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[4]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[5]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[6]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[0]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[1]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[2]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[3]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[4]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[5]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[6]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[7]'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnCpuReset'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNU'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNL'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNR'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTND'. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:105]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc:105]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.srcs/constrs_1/imports/CR/master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.19 . Memory (MB): peak = 1482.699 ; gain = 111.031 ; free physical = 6040 ; free virtual = 10355
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+Implement Debug Cores | Checksum: fb3d978a
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: fb3d978a
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1895.129 ; gain = 0.000 ; free physical = 5707 ; free virtual = 10023
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 0 cells.
+Phase 2 Constant propagation | Checksum: fb3d978a
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1895.129 ; gain = 0.000 ; free physical = 5707 ; free virtual = 10022
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 0 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 3 Sweep | Checksum: fb3d978a
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1895.129 ; gain = 0.000 ; free physical = 5707 ; free virtual = 10022
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-12] Eliminated 0 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 4 BUFG optimization | Checksum: fb3d978a
+
+Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.03 . Memory (MB): peak = 1895.129 ; gain = 0.000 ; free physical = 5707 ; free virtual = 10022
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1895.129 ; gain = 0.000 ; free physical = 5707 ; free virtual = 10022
+Ending Logic Optimization Task | Checksum: fb3d978a
+
+Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 1895.129 ; gain = 0.000 ; free physical = 5707 ; free virtual = 10022
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: fb3d978a
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 1895.129 ; gain = 0.000 ; free physical = 5707 ; free virtual = 10022
+INFO: [Common 17-83] Releasing license: Implementation
+23 Infos, 47 Warnings, 47 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1895.129 ; gain = 523.461 ; free physical = 5707 ; free virtual = 10022
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1919.141 ; gain = 0.000 ; free physical = 5706 ; free virtual = 10022
+INFO: [Common 17-1381] The checkpoint '/home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.runs/impl_1/Count_Ones_opt.dcp' has been generated.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.runs/impl_1/Count_Ones_drc_opted.rpt.
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1959.160 ; gain = 0.000 ; free physical = 5667 ; free virtual = 9985
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1959.160 ; gain = 0.000 ; free physical = 5667 ; free virtual = 9985
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+ERROR: [Place 30-415] IO Placement failed due to overutilization. This design contains 256 I/O ports
+ while the target  device: 7a100t package: csg324, contains only 203 available user I/O. The target device has 210 usable I/O pins of which 7 are already occupied by user-locked I/Os.
+ To rectify this issue:
+ 1. Ensure you are targeting the correct device and package.  Select a larger device or different package if necessary.
+ 2. Check the top-level ports of the design to ensure the correct number of ports are specified.
+ 3. Consider design changes to reduce the number of I/Os necessary.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+ERROR: [Place 30-68] Instance clk_IBUF_BUFG_inst (BUFG) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[0]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[100]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[101]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[102]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[103]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[104]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[105]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[106]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[107]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[108]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[109]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[10]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[110]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[111]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[112]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[113]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[114]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[115]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[116]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[117]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[118]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[119]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[11]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[120]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[121]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[122]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[123]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[124]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[125]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[126]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[127]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[128]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[129]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[12]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[130]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[131]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[132]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[133]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[134]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[135]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[136]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[137]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[138]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[139]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[13]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[140]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[141]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[142]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[143]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[144]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[145]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[146]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[147]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[148]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[149]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[14]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[150]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[151]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[152]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[153]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[154]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[155]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[156]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[157]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[158]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[159]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[15]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[160]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[161]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[162]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[163]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[164]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[165]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[166]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[167]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[168]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[169]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[16]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[170]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[171]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[172]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[173]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[174]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[175]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[176]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[177]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[178]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[179]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[17]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[180]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[181]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[182]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[183]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[184]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[185]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[186]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[187]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[188]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance data_in_IBUF[189]_inst (IBUF) is not placed
+INFO: [Common 17-14] Message 'Place 30-68' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 17ba62f72
+
+Time (s): cpu = 00:00:00.95 ; elapsed = 00:00:00.65 . Memory (MB): peak = 1961.145 ; gain = 1.984 ; free physical = 5665 ; free virtual = 9984
+Phase 1 Placer Initialization | Checksum: 17ba62f72
+
+Time (s): cpu = 00:00:00.95 ; elapsed = 00:00:00.65 . Memory (MB): peak = 1961.145 ; gain = 1.984 ; free physical = 5665 ; free virtual = 9984
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: 17ba62f72
+
+Time (s): cpu = 00:00:00.95 ; elapsed = 00:00:00.65 . Memory (MB): peak = 1961.145 ; gain = 1.984 ; free physical = 5665 ; free virtual = 9984
+INFO: [Common 17-83] Releasing license: Implementation
+38 Infos, 47 Warnings, 47 Critical Warnings and 103 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Wed May 17 15:56:00 2017...

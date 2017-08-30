@@ -1,0 +1,90 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Wed May 17 17:11:12 2017
+| Host         : khona5 running 64-bit Fedora release 25 (Twenty Five)
+| Command      : report_control_sets -verbose -file design_1_wrapper_control_sets_placed.rpt
+| Design       : design_1_wrapper
+| Device       : xc7a100t
+---------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    26 |
+| Unused register locations in slices containing registers |    34 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              19 |            6 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              41 |           16 |
+| Yes          | No                    | No                     |              21 |            5 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             301 |           93 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------+--------------------------------------------------------+------------------------------------------------+------------------+----------------+
+|  Clock Signal  |                      Enable Signal                     |                Set/Reset Signal                | Slice Load Count | Bel Load Count |
++----------------+--------------------------------------------------------+------------------------------------------------+------------------+----------------+
+| ~clk_IBUF_BUFG |                                                        |                                                |                1 |              2 |
+|  clk_IBUF_BUFG | design_1_i/BinToBCD16_0/U0/index_c[4]_i_1_n_0          |                                                |                1 |              5 |
+|  clk_IBUF_BUFG |                                                        | design_1_i/Count_Ones_0/U0/index[7]_i_1_n_0    |                2 |              8 |
+| ~clk_IBUF_BUFG | design_1_i/Unroll_ROM_last_0/U0/addr_in[3]_rep_i_1_n_0 | BTNC_IBUF                                      |                2 |              8 |
+|  clk_IBUF_BUFG |                                                        | design_1_i/Count_Ones_0/U0/n_o_ones[8]_i_1_n_0 |                3 |              9 |
+| ~clk_IBUF_BUFG | design_1_i/Unroll_ROM_last_0/U0/data_tmp[31]_i_1_n_0   | BTNC_IBUF                                      |                5 |             16 |
+| ~clk_IBUF_BUFG | design_1_i/Unroll_ROM_last_0/U0/data_tmp[111]_i_1_n_0  | BTNC_IBUF                                      |                6 |             16 |
+| ~clk_IBUF_BUFG | design_1_i/Unroll_ROM_last_0/U0/data_tmp[127]_i_1_n_0  | BTNC_IBUF                                      |                5 |             16 |
+| ~clk_IBUF_BUFG | design_1_i/Unroll_ROM_last_0/U0/data_tmp[143]_i_1_n_0  | BTNC_IBUF                                      |                4 |             16 |
+| ~clk_IBUF_BUFG | design_1_i/Unroll_ROM_last_0/U0/data_tmp[159]_i_1_n_0  | BTNC_IBUF                                      |                7 |             16 |
+| ~clk_IBUF_BUFG | design_1_i/Unroll_ROM_last_0/U0/data_tmp[15]_i_1_n_0   | BTNC_IBUF                                      |                4 |             16 |
+| ~clk_IBUF_BUFG | design_1_i/Unroll_ROM_last_0/U0/data_tmp[175]_i_1_n_0  | BTNC_IBUF                                      |                4 |             16 |
+| ~clk_IBUF_BUFG | design_1_i/Unroll_ROM_last_0/U0/data_tmp[191]_i_1_n_0  | BTNC_IBUF                                      |                4 |             16 |
+| ~clk_IBUF_BUFG | design_1_i/Unroll_ROM_last_0/U0/data_tmp[207]_i_1_n_0  | BTNC_IBUF                                      |                7 |             16 |
+| ~clk_IBUF_BUFG | design_1_i/Unroll_ROM_last_0/U0/data_tmp[223]_i_1_n_0  | BTNC_IBUF                                      |                4 |             16 |
+| ~clk_IBUF_BUFG | design_1_i/Unroll_ROM_last_0/U0/data_tmp[239]_i_1_n_0  | BTNC_IBUF                                      |                7 |             16 |
+| ~clk_IBUF_BUFG | design_1_i/Unroll_ROM_last_0/U0/data_tmp[255]_i_1_n_0  | BTNC_IBUF                                      |                4 |             16 |
+| ~clk_IBUF_BUFG | design_1_i/Unroll_ROM_last_0/U0/data_tmp[47]_i_1_n_0   | BTNC_IBUF                                      |                6 |             16 |
+| ~clk_IBUF_BUFG | design_1_i/Unroll_ROM_last_0/U0/data_tmp[63]_i_1_n_0   | BTNC_IBUF                                      |                4 |             16 |
+| ~clk_IBUF_BUFG | design_1_i/Unroll_ROM_last_0/U0/data_tmp[79]_i_1_n_0   | BTNC_IBUF                                      |                5 |             16 |
+| ~clk_IBUF_BUFG | design_1_i/Unroll_ROM_last_0/U0/data_tmp[95]_i_1_n_0   | BTNC_IBUF                                      |                4 |             16 |
+|  clk_IBUF_BUFG | design_1_i/BinToBCD16_0/U0/int_rg_c[15]_i_1_n_0        |                                                |                4 |             16 |
+|  clk_IBUF_BUFG |                                                        |                                                |                5 |             17 |
+|  clk_IBUF_BUFG | design_1_i/Count_Ones_0/U0/Res[8]_i_1_n_0              | BTNC_IBUF                                      |                5 |             17 |
+|  clk_IBUF_BUFG | design_1_i/BinToBCD16_0/U0/get_outputs                 | BTNC_IBUF                                      |                6 |             20 |
+|  clk_IBUF_BUFG |                                                        | BTNC_IBUF                                      |               11 |             24 |
++----------------+--------------------------------------------------------+------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 2      |                     1 |
+| 5      |                     1 |
+| 8      |                     2 |
+| 9      |                     1 |
+| 16+    |                    21 |
++--------+-----------------------+
+
+

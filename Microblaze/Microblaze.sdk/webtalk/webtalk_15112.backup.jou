@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# 
+# Start of session at: Thu Jul 27 19:24:27 2017
+# Process ID: 15112
+# Current directory: /home/luminoso/UA-work/CR/projectofinal/Microblaze/Microblaze.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/luminoso/UA-work/CR/projectofinal/Microblaze/Microblaze.sdk/webtalk/webtalk.log
+# Journal file: /home/luminoso/UA-work/CR/projectofinal/Microblaze/Microblaze.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

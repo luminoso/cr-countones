@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed May 17 17:09:39 2017
+# Process ID: 12748
+# Current directory: /home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.runs/synth_1
+# Command line: vivado -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file: /home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.runs/synth_1/design_1_wrapper.vds
+# Journal file: /home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

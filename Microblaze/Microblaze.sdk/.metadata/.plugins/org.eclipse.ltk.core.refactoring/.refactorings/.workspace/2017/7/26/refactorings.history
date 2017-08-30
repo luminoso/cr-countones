@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;EncherRam&apos; to &apos;FillRam&apos;" description="Rename resource &apos;EncherRam&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/EncherRam" name="FillRam" stamp="1498907117922" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;EncherRam_bsp&apos; to &apos;FillRam_bsp&apos;" description="Rename resource &apos;EncherRam_bsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/EncherRam_bsp" name="FillRam_bsp" stamp="1498907171309" updateReferences="true"/>
+</session>

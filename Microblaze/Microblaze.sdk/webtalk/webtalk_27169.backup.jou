@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# 
+# Start of session at: Mon May 15 22:23:17 2017
+# Process ID: 27169
+# Current directory: /home/luminoso/UA-work/CR/aula06/ex1_fill/ex1.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/luminoso/UA-work/CR/aula06/ex1_fill/ex1.sdk/webtalk/webtalk.log
+# Journal file: /home/luminoso/UA-work/CR/aula06/ex1_fill/ex1.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

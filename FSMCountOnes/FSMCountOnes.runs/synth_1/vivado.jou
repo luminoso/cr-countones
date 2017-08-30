@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed May 17 15:55:11 2017
+# Process ID: 20644
+# Current directory: /home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.runs/synth_1
+# Command line: vivado -log Count_Ones.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Count_Ones.tcl
+# Log file: /home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.runs/synth_1/Count_Ones.vds
+# Journal file: /home/luminoso/UA-work/CR/projectofinal/FSMCountOnes/FSMCountOnes.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source Count_Ones.tcl -notrace

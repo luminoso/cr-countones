@@ -1,0 +1,820 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed May 17 17:10:45 2017
+# Process ID: 12905
+# Current directory: /home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.runs/impl_1
+# Command line: vivado -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: /home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.runs/impl_1/design_1_wrapper.vdi
+# Journal file: /home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc] for cell 'design_1_i/Unroll_ROM_last_0/U0'
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:8]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'IOSTANDARD', because the property does not exist for objects of type 'pin'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:9]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[4]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[4]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:93]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:93]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:94]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:94]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:96]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:96]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:105]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:105]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:111]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[0]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:137]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:137]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[0]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:138]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:138]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[1]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:140]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:140]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[1]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:141]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:141]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[2]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:143]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:143]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[2]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:144]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:144]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[3]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:146]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:146]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[3]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:147]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:147]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[4]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:149]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:149]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[4]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:150]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:150]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[5]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:152]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:152]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[5]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:153]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:153]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[6]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:155]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:155]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[6]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:156]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:156]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[0]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:163]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:163]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[0]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:164]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:164]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[1]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:166]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:166]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[1]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:167]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:167]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[2]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:169]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:169]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[2]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:170]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:170]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[3]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:172]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:172]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[3]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:173]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:173]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[4]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:175]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:175]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[4]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:176]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:176]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[5]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:178]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:178]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[5]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:179]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:179]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[6]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:181]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:181]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[6]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:182]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:182]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[7]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:184]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:184]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[7]'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:185]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:185]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnC'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:194]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:194]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnC'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:195]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:195]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnU'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:197]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:197]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnU'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:198]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:198]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnL'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:200]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:200]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnL'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:201]
+INFO: [Common 17-14] Message 'Vivado 12-584' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:201]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:201]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+INFO: [Common 17-14] Message 'Common 17-55' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc:201]
+Finished Parsing XDC File [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Unroll_ROM_last_0_0/src/Nexys4_Master.xdc] for cell 'design_1_i/Unroll_ROM_last_0/U0'
+Parsing XDC File [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Count_Ones_0_0/constrs_1/imports/CR/master.xdc] for cell 'design_1_i/Count_Ones_0/U0'
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Count_Ones_0_0/constrs_1/imports/CR/master.xdc:7]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Count_Ones_0_0/constrs_1/imports/CR/master.xdc:101]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+Finished Parsing XDC File [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_Count_Ones_0_0/constrs_1/imports/CR/master.xdc] for cell 'design_1_i/Count_Ones_0/U0'
+Parsing XDC File [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/constrs_1/imports/CR/master.xdc]
+Finished Parsing XDC File [/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.srcs/constrs_1/imports/CR/master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.20 . Memory (MB): peak = 1473.695 ; gain = 101.031 ; free physical = 6740 ; free virtual = 11172
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+Implement Debug Cores | Checksum: 1eb3e2612
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 267 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1713a9600
+
+Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.05 . Memory (MB): peak = 1896.125 ; gain = 0.000 ; free physical = 6398 ; free virtual = 10829
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 12 cells.
+Phase 2 Constant propagation | Checksum: 1fa7d5896
+
+Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.08 . Memory (MB): peak = 1896.125 ; gain = 0.000 ; free physical = 6398 ; free virtual = 10829
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 50 unconnected nets.
+INFO: [Opt 31-11] Eliminated 9 unconnected cells.
+Phase 3 Sweep | Checksum: 17f23bc41
+
+Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.12 . Memory (MB): peak = 1896.125 ; gain = 0.000 ; free physical = 6398 ; free virtual = 10829
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-12] Eliminated 0 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 4 BUFG optimization | Checksum: 98b56762
+
+Time (s): cpu = 00:00:00.20 ; elapsed = 00:00:00.15 . Memory (MB): peak = 1896.125 ; gain = 0.000 ; free physical = 6398 ; free virtual = 10829
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1896.125 ; gain = 0.000 ; free physical = 6398 ; free virtual = 10829
+Ending Logic Optimization Task | Checksum: 98b56762
+
+Time (s): cpu = 00:00:00.20 ; elapsed = 00:00:00.16 . Memory (MB): peak = 1896.125 ; gain = 0.000 ; free physical = 6398 ; free virtual = 10829
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 1 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 2
+Ending PowerOpt Patch Enables Task | Checksum: 98b56762
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6304 ; free virtual = 10735
+Ending Power Optimization Task | Checksum: 98b56762
+
+Time (s): cpu = 00:00:00.46 ; elapsed = 00:00:00.33 . Memory (MB): peak = 2214.234 ; gain = 318.109 ; free physical = 6304 ; free virtual = 10735
+INFO: [Common 17-83] Releasing license: Implementation
+29 Infos, 100 Warnings, 104 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2214.234 ; gain = 841.570 ; free physical = 6304 ; free virtual = 10735
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6303 ; free virtual = 10734
+INFO: [Common 17-1381] The checkpoint '/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.runs/impl_1/design_1_wrapper_opt.dcp' has been generated.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.runs/impl_1/design_1_wrapper_drc_opted.rpt.
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6301 ; free virtual = 10732
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6301 ; free virtual = 10732
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 832d4a3e
+
+Time (s): cpu = 00:00:00.97 ; elapsed = 00:00:00.55 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6301 ; free virtual = 10732
+
+Phase 1.2 Build Placer Netlist Model
+Phase 1.2 Build Placer Netlist Model | Checksum: c67cd103
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.73 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6298 ; free virtual = 10729
+
+Phase 1.3 Constrain Clocks/Macros
+Phase 1.3 Constrain Clocks/Macros | Checksum: c67cd103
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.73 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6298 ; free virtual = 10729
+Phase 1 Placer Initialization | Checksum: c67cd103
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.75 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6298 ; free virtual = 10729
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 15a324b0e
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:02 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6298 ; free virtual = 10729
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 15a324b0e
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:02 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6298 ; free virtual = 10729
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 113c5b3ae
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:03 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6298 ; free virtual = 10728
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1513f6a82
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:03 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6298 ; free virtual = 10728
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1513f6a82
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:03 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6298 ; free virtual = 10728
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 142f8667b
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:03 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6297 ; free virtual = 10728
+
+Phase 3.6 Fast Optimization
+Phase 3.6 Fast Optimization | Checksum: 13c1f9cc5
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:03 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6296 ; free virtual = 10727
+
+Phase 3.7 Small Shape Detail Placement
+Phase 3.7 Small Shape Detail Placement | Checksum: 1468a2e17
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:03 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6297 ; free virtual = 10727
+
+Phase 3.8 Re-assign LUT pins
+Phase 3.8 Re-assign LUT pins | Checksum: 13fd39b4e
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:03 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6297 ; free virtual = 10727
+
+Phase 3.9 Pipeline Register Optimization
+Phase 3.9 Pipeline Register Optimization | Checksum: 13fd39b4e
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:03 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6297 ; free virtual = 10727
+
+Phase 3.10 Fast Optimization
+Phase 3.10 Fast Optimization | Checksum: 1143944b9
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:03 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6297 ; free virtual = 10727
+Phase 3 Detail Placement | Checksum: 1143944b9
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:03 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6297 ; free virtual = 10728
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-0.367. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: c4652a1b
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6295 ; free virtual = 10726
+Phase 4.1 Post Commit Optimization | Checksum: c4652a1b
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6295 ; free virtual = 10726
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: c4652a1b
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6295 ; free virtual = 10726
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: c4652a1b
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6295 ; free virtual = 10726
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 12feea25b
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6295 ; free virtual = 10726
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 12feea25b
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6295 ; free virtual = 10726
+Ending Placer Task | Checksum: ba0206cf
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6295 ; free virtual = 10726
+INFO: [Common 17-83] Releasing license: Implementation
+45 Infos, 100 Warnings, 104 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6295 ; free virtual = 10726
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6294 ; free virtual = 10726
+INFO: [Common 17-1381] The checkpoint '/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.runs/impl_1/design_1_wrapper_placed.dcp' has been generated.
+report_io: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.10 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6295 ; free virtual = 10725
+report_utilization: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.06 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6295 ; free virtual = 10726
+report_control_sets: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6294 ; free virtual = 10725
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+Checksum: PlaceDB: 161aad3b ConstDB: 0 ShapeSum: a3e75994 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 19327dfd8
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6175 ; free virtual = 10607
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 19327dfd8
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6175 ; free virtual = 10607
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 19327dfd8
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6159 ; free virtual = 10591
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 19327dfd8
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6159 ; free virtual = 10591
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 1666717d9
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:16 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.363 | TNS=-3.167 | WHS=-0.141 | THS=-2.372 |
+
+Phase 2 Router Initialization | Checksum: 1da2c1b20
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:16 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 15da41776
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:16 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 166
+ Number of Nodes with overlaps = 57
+ Number of Nodes with overlaps = 19
+ Number of Nodes with overlaps = 6
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 161294d62
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:17 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.355 | TNS=-3.045 | WHS=N/A    | THS=N/A    |
+
+
+Phase 4.1.2 GlobIterForTiming
+
+Phase 4.1.2.1 Update Timing
+Phase 4.1.2.1 Update Timing | Checksum: 162f90a69
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:17 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+
+Phase 4.1.2.2 Fast Budgeting
+Phase 4.1.2.2 Fast Budgeting | Checksum: 1572c58c1
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:17 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+Phase 4.1.2 GlobIterForTiming | Checksum: 15532fb7e
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:17 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+Phase 4.1 Global Iteration 0 | Checksum: 15532fb7e
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:17 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 128
+ Number of Nodes with overlaps = 90
+ Number of Nodes with overlaps = 27
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: 20d739079
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:18 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.942 | TNS=-19.881| WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 1ad63e17e
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:18 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+Phase 4 Rip-up And Reroute | Checksum: 1ad63e17e
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:18 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 1659a1dd2
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:18 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.259 | TNS=-2.087 | WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 5.1 Delay CleanUp | Checksum: 11afda47c
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:18 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 11afda47c
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:18 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+Phase 5 Delay and Skew Optimization | Checksum: 11afda47c
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:18 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1979f9686
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:18 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.259 | TNS=-2.087 | WHS=0.152  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 1979f9686
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:18 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+Phase 6 Post Hold Fix | Checksum: 1979f9686
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:18 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.118771 %
+  Global Horizontal Routing Utilization  = 0.114237 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 19.8198%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 39.6396%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 27.9412%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 35.2941%, No Congested Regions.
+Phase 7 Route finalize | Checksum: 1a520e257
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:18 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 1a520e257
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:18 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1fdc6817a
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:18 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-0.259 | TNS=-2.087 | WHS=0.152  | THS=0.000  |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 10 Post Router Timing | Checksum: 1fdc6817a
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:18 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:18 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+59 Infos, 101 Warnings, 104 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:19 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6139 ; free virtual = 10571
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2214.234 ; gain = 0.000 ; free physical = 6138 ; free virtual = 10572
+INFO: [Common 17-1381] The checkpoint '/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.runs/impl_1/design_1_wrapper_routed.dcp' has been generated.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.runs/impl_1/design_1_wrapper_drc_routed.rpt.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 8 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file /home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.runs/impl_1/design_1_wrapper_methodology_drc_routed.rpt.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+Command: report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+69 Infos, 101 Warnings, 105 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+Command: write_bitstream -force -no_partial_bitfile design_1_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC 23-20] Rule violation (CFGBVS-1) Missing CFGBVS and CONFIG_VOLTAGE Design Properties - Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+INFO: [DRC 23-20] Rule violation (REQP-165) writefirst - Synchronous clocking is detected for BRAM (design_1_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 1 Warnings, 1 Advisories
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./design_1_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-186] '/home/luminoso/UA-work/CR/projectofinal/FSM_tester/project_1/project_1.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Wed May 17 17:11:43 2017. For additional details about this file, please refer to the WebTalk help file at /home/luminoso/.local/opt/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-83] Releasing license: Implementation
+78 Infos, 102 Warnings, 105 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2476.727 ; gain = 209.797 ; free physical = 5768 ; free virtual = 10257
+INFO: [Common 17-206] Exiting Vivado at Wed May 17 17:11:44 2017...
